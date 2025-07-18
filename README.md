@@ -8,6 +8,7 @@ pip install python-dotenv
 .env file structure:
 
 #AGENT 1
+
 AGENT1_CLIENT_ID=
 
 AGENT1_CLIENT_SECRET=
