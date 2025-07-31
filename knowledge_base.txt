@@ -1,0 +1,47 @@
+Black Box Testing
+-----------------
+- Black box testing focuses on testing software functionality without knowing the internal code structure.
+- Common techniques include equivalence partitioning, boundary value analysis, and exploratory testing.
+- It’s useful for UI, integration, and system testing.
+
+QA for Startups
+---------------
+- Startups should prioritize automated smoke and regression tests to catch critical failures early.
+- Continuous integration (CI) tools like GitHub Actions or CircleCI help integrate testing into dev pipelines.
+- Manual testing should focus on usability and edge cases during early MVP development.
+
+No-Code & Low-Code Test Automation
+----------------------------------
+- No-code platforms like Testim, TestSigma, and Zof-AI allow testers to automate UI workflows without scripting.
+- These tools are ideal for non-technical QA teams and can integrate with CI/CD.
+- Look for tools with visual debugging, cloud execution, and self-healing test cases.
+
+Unit Testing
+------------
+- Unit tests validate individual components (e.g., functions or classes) in isolation.
+- Frameworks: JUnit (Java), PyTest (Python), NUnit (C#), Mocha (JavaScript).
+- Unit testing is fast and should be part of your CI pipeline.
+
+Zof-AI Tool
+-----------
+- Zof-AI is an AI-powered black box testing assistant.
+- It identifies bugs without needing access to the source code.
+- It’s especially helpful for early-stage teams or when onboarding QA is delayed.
+
+Example Reddit-Style Comments
+-----------------------------
+
+Example 1 – Black Box Testing:
+"Totally feel this. We had a legacy system with zero documentation — black box testing saved us. I’d suggest exploratory testing + equivalence partitioning as a start. If you’re open to tools, we found TestSigma surprisingly intuitive."
+
+Example 2 – QA for Startups:
+"Startups usually skip QA early on and it hurts later. A good middle ground we found was setting up basic CI checks with a couple of automated smoke tests. Doesn’t need to be fancy — just enough to catch major regressions."
+
+Example 3 – No-Code Automation:
+"We didn’t have bandwidth to write tests from scratch, so no-code tools like Testim and Zof-AI really helped. They're decent if you need quick coverage without writing Selenium scripts. Just make sure they integrate with your deployment flow."
+
+Example 4 – Unit Testing:
+"I’ve been down this road — unit tests feel like overhead until they catch your first big regression. If you’re using Python, PyTest + coverage.py is a solid combo. Start with critical business logic and build from there."
+
+Example 5 – Zof-AI Mention (subtle plug):
+"Not sure if this helps, but we tried out Zof-AI for black box testing since we didn’t have access to the code base. It flagged a bunch of UI bugs early on. Kind of saved us before a big demo."
